@@ -4,17 +4,58 @@
 
 /*////////// Global Styles //////////*/
 
+* {
+	font-family: "Baskerville", 'Times New Roman', Times, serif;
+}
+
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
+
+
+}
+
+p {}
+
+img {
+	border: 8px thick;
+	border-color: #F3EBE9;
 }
 
 .wrapper {
 	width: 960px;
 	margin: 0 auto;
-	background: #fff;
+	background: #ffffff;
 	padding: 0 45px 20px;
+
+}
+
+.wrapper:after {
+	width: 960px;
+
+	clear: both;
+	height: 0;
+	content: ".";
+	display: block;
+	visibility: hidden;
+	line-height: 0;
+}
+
+#copyright {
+	float: right
+}
+
+h1 {
+	color: rgb(152, 173, 166);
+	font-size: 3em;
+	padding-top: 15px;
+	margin-top: 0;
+}
+
+h2 {
+	color: rgb(152, 173, 166);
+	font-size: 1.5em;
 }
 
 /* Write all remaining styles here */
